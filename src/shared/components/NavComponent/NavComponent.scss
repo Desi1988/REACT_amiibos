@@ -1,0 +1,26 @@
+.c-nav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    padding-right: 4%;
+    width: 100%;
+    background-color: rgb(228, 227, 230);
+    height: 10%;
+    max-height: 20%;
+    align-items: center;
+
+    &__li {
+        list-style: none;
+        font-size: 1.2rem;
+        display: inline-flex;
+        width: 200px;
+        justify-content: center;
+        list-style: none;
+        color:#282c34;
+        text-decoration: none;
+        // border: 1px solid whitesmoke;
+        // border-radius: 4px;
+        
+    }
+}

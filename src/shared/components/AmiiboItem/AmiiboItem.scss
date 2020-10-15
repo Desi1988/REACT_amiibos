@@ -1,0 +1,22 @@
+.c-item {
+    display: flex;
+    justify-content: center;
+
+    &__img{
+        padding: 20px;
+
+        &-img {
+            max-height: 80%;
+            text-align: center;
+        }
+    }
+
+    &__text {
+        border-left: whitesmoke 1px solid;
+        padding-left: 60px;
+        padding-right: 20px;
+        color: whitesmoke;
+        font-size: 1.5rem;
+        align-items: center;
+    }
+}
